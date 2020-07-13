@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registeration_Form</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="css/style_queries.css">
+</head>
+
+<body>
+    <section class="bodysection">
+        <header class="top">
+            <nav>
+                <div class="logo">
+                    <div class="sq"><a id="sh" href="#"><img src="assets/images/image1.webp" height="80px" width="80px"></a></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="registration.html">Sign-Up</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="first-name">Family Name:</label><input type="text" placeholder="Write your family name" required><br><br>
+                <label for="last-name">First Name:</label><input type="text" placeholder="Write your first name" required><br><br>
+                <label for="email">E-mail:</label><input type="email" placeholder="Write your E-mail" required><br><br>
+                <label for="telephone">Telephone:</label><input type="tel" pattern='^\+1?\d{0,13}' title='Phone Number (Format: +9(999)999-9999)' required><br>
+                <label for="address">Address:</label><br>
+                <input type="text" placeholder="House Number" required>
+                <input type="text" placeholder="Street" required>
+                <input type="text" placeholder="city" required>
+                <input type="text" placeholder="Country" required>
+                <input type="text" placeholder="Pincode" required>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Gender</label><br>
+                <input type="radio" name="gender"><label for="m">Male</label>
+                <input type="radio" name="gender" checked><label for="f">Female</label><br><br>
+                <label for="age">Age:</label><input type="number" placeholder="Write your age" required><br><br>
+                <label for="height">Height:</label><input type="text"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Education & Profession</legend>
+                <label>Qualification:</label><input type="text" placeholder="Enter your Qualification"><br><br>
+                <label>Occupation:</label><br>
+                <input type="checkbox"><label for="lawyer">Lawyer</label>
+                <input type="checkbox"><label for="teacher">Teacher</label>
+                <input type="checkbox"><label for="doctor">Doctor</label>
+                <input type="checkbox"><label for="engineer">Engineer</label>
+                <input type="checkbox"><label for="business">Business Man</label>
+                <input type="checkbox"><label for="other">Any other work</label><br><br>
+                
+                <label for="salary">Salary:</label><input type="text" placeholder="Enter your yearly income"><br><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Queries</legend>
+                <textarea name="text_area1" id="" cols="30" rows="10" placeholder="Ask Your questions here"></textarea>
+            </fieldset>
+            <br><input type="submit" value="Send"><br>
+        </form><br>
+
+
+        <div class="footer">
+            <ul>
+                <li><a href="http://www.facebook.com"><img src="assets/images/logo-facebook.png"></a></li>
+                <li><a href="http://www.youtube.com"><img src="assets/images/logo-twitter.png"></a></li>
+                <li><a href="http://www.twitter.com"><img src="assets/images/logo-youtube.png"></a></li>
+            </ul>
+        </div>
+    </section>
+</body></html>

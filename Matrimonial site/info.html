@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Information</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        table,
+        td,
+        th {
+            /* thick black border around the whole table */
+            border: 1px solid aqua;
+            text-align: left;
+            padding: 8px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            text-shadow: 2px;
+        }
+
+        table {
+            /*  position: absolute;*/
+            /*left: 55%;*/
+            /*  width: 500px;
+            height: 400px;*/
+            background-color: darkgray;
+
+        }
+
+        th {
+            color: navy;
+            text-shadow: 2px;
+        }
+
+        tr:nth-child(even) {
+            color: brown;
+            text-shadow: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="bodysection">
+        <header class="top">
+            <nav>
+                <div class="logo">
+                    <div class="sq"><a id="sh" href="#"><img src="assets/images/image1.webp" height="80px" width="80px"></a></div>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="registration.html">Sign-Up</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="video">
+            <div class="v1">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JNKZN8uq1H8" hi frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <!--
+            <div class="v">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U9Ra_IQZpoE?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <br>
+            <br>
+-->
+
+        </div>
+        <div class="container">
+            <table>
+                <caption><b style="font-family: cursive; font-size: 20px"> Marriage's Success Rates </b></caption>
+
+                <!-- first row with table header cells th -->
+                <tr>
+                    <th>Age Groups\Martial Status</th> <!-- first column -->
+                    <th>Single</th> <!-- second column -->
+                    <th colspan="2">Single Parent</th><!-- third column -->
+                    <th>Divorced</th><!-- Fourth column -->
+                    <th>Widowed</th><!-- fifth column -->
+                    <th>Average</th><!-- sixth column -->
+
+                </tr>
+
+                <!-- 2nd row, but first row with data cells td -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Male</td>
+                    <td>Female</td>
+                    <td colspan="3"></td>
+                    
+                </tr>
+                <!-- 3rd row, but first row with data cells td -->
+                <tr>
+                    <td>19-25</td>
+                    <td>85%</td>
+                    <td>75%</td>
+                    <td>68%</td>
+                    <td>80%</td>
+                    <td>72%</td>
+                    <td>74.2%</td>
+
+                </tr>
+
+                <!-- 4th row -->
+                <tr>
+
+                    <td>26-30</td>
+                    <td>80%</td>
+                    <td>67%</td>
+                    <td>65%</td>
+                    <td>62%</td>
+                    <td>70%</td>
+                    <td>62.9%</td>
+
+                </tr>
+
+                <!-- 5th row -->
+                <tr>
+                    <td>31-40</td>
+                    <td>45%</td>
+                    <td>54%</td>
+                    <td>49%</td>
+                    <td>52%</td>
+                    <td>67%</td>
+                    <td>54.5%</td>
+                </tr>
+                <!-- 6th row -->
+                <tr>
+                    <td>41 or more</td>
+                    <td>30%</td>
+                    <td>35%</td>
+                    <td>20%</td>
+                    <td>25%</td>
+                    <td>25%</td>
+                    <td>28.8%</td>
+                </tr>
+
+
+            </table>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li><a href="http://www.facebook.com"><img src="assets/images/logo-facebook.png"></a></li>
+                <li><a href="http://www.youtube.com"><img src="assets/images/logo-twitter.png"></a></li>
+                <li><a href="http://www.twitter.com"><img src="assets/images/logo-youtube.png"></a></li>
+            </ul>
+        </div>
+    </section>
+</body></html>
